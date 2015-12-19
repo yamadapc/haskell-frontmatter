@@ -30,6 +30,15 @@ main = ByteString.readFile "something.md" >>= parseYamlFrontmatter >>= \case
 See the haddocks for more information. Essentially exports an `Attoparsec`
 parser and some helpers. Usage examples also available at the `test` directory.
 
+## Why?
+I'm working on the Haskell workshop tool
+[`workhs`](https://github.com/haskellbr/workhs). In my mind, using markdown file
+names as metadata is a very sensible decision. However, I'd like for tutorial
+writers to be able to override metadata. Then, Jekyll's YAML frontmatter format
+is a great choice:
+- It's familiar
+- It's very, very easy to implement
+
 ## License
 This software is published under the MIT license. For more information refer to
 the [LICENSE](/LICENSE) file.
