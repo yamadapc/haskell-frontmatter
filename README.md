@@ -1,4 +1,6 @@
 # haskell-frontmatter
+[![Build Status](https://travis-ci.org/yamadapc/haskell-frontmatter.svg?branch=master)](https://travis-ci.org/yamadapc/haskell-frontmatter)
+- - -
 Attoparsec parsers for YAML frontmatter as used in Jekyll. Because of how
 `Data.Yaml` is implemented using `Data.Aeson`, the
 `Data.Yaml.Frontmatter.frontmatterYaml` instance of `Parser` works with YAML and
