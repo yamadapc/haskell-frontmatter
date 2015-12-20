@@ -1,5 +1,5 @@
 name:                frontmatter
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Parses frontmatter as used in Jekyll markdown files.
 description:         Parses frontmatter as used in Jekyll markdown files.
                      .
