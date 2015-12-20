@@ -1,5 +1,6 @@
 # haskell-frontmatter
 [![Build Status](https://travis-ci.org/yamadapc/haskell-frontmatter.svg?branch=master)](https://travis-ci.org/yamadapc/haskell-frontmatter)
+[![Hackage Version](https://img.shields.io/hackage/v/frontmatter.svg)](http://hackage.haskell.org/package/frontmatter)
 - - -
 Attoparsec parsers for YAML frontmatter as used in Jekyll. Because of how
 `Data.Yaml` is implemented using `Data.Aeson`, the
