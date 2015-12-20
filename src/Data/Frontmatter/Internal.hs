@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Data.Frontmatter.Internal where
 
+import           Control.Applicative              ((*>))
 import           Data.Attoparsec.ByteString
 import           Data.Attoparsec.ByteString.Char8
 import           Data.ByteString                  (ByteString)
