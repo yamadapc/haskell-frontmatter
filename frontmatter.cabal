@@ -1,9 +1,11 @@
 name:                frontmatter
 version:             0.1.0.1
 synopsis:            Parses frontmatter as used in Jekyll markdown files.
-description:         Provides a parser that'll parse the frontmatter only and
-                   . one that'll execute a YAML parser on it, so that it's a
-                   . YAML frontmatter parser.
+description:         Parses frontmatter as used in Jekyll markdown files.
+                     .
+                     Provides a parser that'll parse the frontmatter only and
+                     one that'll execute a YAML parser on it, so that it's a
+                     YAML frontmatter parser.
 homepage:            https://github.com/yamadapc/haskell-frontmatter
 license:             MIT
 license-file:        LICENSE
