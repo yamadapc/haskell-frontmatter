@@ -8,7 +8,6 @@ Attoparsec parsers for YAML frontmatter as used in Jekyll. Because of how
 JSON.
 
 ## Installation
-_This actually won't work right now_
 ```
 $ stack install frontmatter
 ```
