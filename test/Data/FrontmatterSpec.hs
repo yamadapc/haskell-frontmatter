@@ -44,5 +44,8 @@ spec = do
 
         it "handles input with invalid frontmatters" $ do
             input <- ByteString.readFile "./invalid-yaml-frontmatter.md"
-            let Fail input' _ _ = parse frontmatterYaml input :: Result Value
+            let Fail input' _ctx msg = parse frontmatterYaml input :: Result Value
             input' `shouldBe` "etc etc\n"
+            -- ignoring _ctx. Does not appear useful.
+            -- A somewhat different message may be ok, but the line and column must be the same
+            msg `shouldBe` "Failed reading: YAML parse exception at line 2, column 11:\nmapping values are not allowed in this context"
